@@ -1,0 +1,100 @@
+body {
+  line-height: 1.2;
+  font-family: "Newsreader", "Noto Serif TC", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.ls-h1-10 {
+  letter-spacing: calc($h1-font-size * 0.1);
+}
+.ls-h1-5 {
+  letter-spacing: calc($h1-font-size * 0.05);
+}
+.ls-h2-10 {
+  letter-spacing: calc($h2-font-size * 0.1);
+}
+.ls-h2-5 {
+  letter-spacing: calc($h2-font-size * 0.05);
+}
+.ls-h3-10 {
+  letter-spacing: calc($h3-font-size * 0.1);
+}
+.ls-h3-5 {
+  letter-spacing: calc($h3-font-size * 0.05);
+}
+.ls-h4-10 {
+  letter-spacing: calc($h4-font-size * 0.1);
+}
+.ls-h4-5 {
+  letter-spacing: calc($h4-font-size * 0.05);
+}
+.ls-h5-10 {
+  letter-spacing: calc($h5-font-size * 0.1);
+}
+.ls-h5-5 {
+  letter-spacing: calc($h5-font-size * 0.05);
+}
+.ls-h6-10 {
+  letter-spacing: calc($h6-font-size * 0.1);
+}
+.ls-h6-5 {
+  letter-spacing: calc($h6-font-size * 0.05);
+}
+.lh-md {
+  line-height: 1.75;
+}
+
+.box-shadow-light {
+  box-shadow: 0px 2px 8px #6e6b6714;
+}
+
+.border-radius-some {
+  border-radius: 12px;
+}
+
+.card-link-cus {
+  letter-spacing: 1.6px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  font-weight: 700;
+
+  @media screen {
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.secion-header {
+  font-size: 24px;
+  letter-spacing: 2.4px;
+  @media screen and (min-width: 992px) {
+    font-size: 32px;
+    letter-spacing: 3.2px;
+  }
+}
+
+.card-hover-cus {
+  &:hover::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #adb5bd;
+    opacity: 0.5;
+    z-index: 1;
+  }
+}

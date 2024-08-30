@@ -1,0 +1,90 @@
+.about-header {
+  font-size: 24px;
+  letter-spacing: 2.4px;
+  @media screen and (min-width:992px) {
+    font-size: 32px;
+    letter-spacing: 3.2px;
+  }
+}
+.about-banner {
+  &-container {
+    background-image: url(/assets/images/about-banner-sm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 240px;
+  }
+  @media screen and (min-width: 992px) {
+    &-container {
+      background-image: url(/assets/images/about-banner.png);
+      height: 454px;
+    }
+  }
+}
+
+.aboutus {
+  &-header {
+    font-size: 24px;
+    letter-spacing: 2.4px;
+  }
+  &-img-left {
+    background-image: url(/assets/images/about-1-sm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+  }
+  &-img-right {
+    background-image: url(/assets/images/about-2-sm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+  }
+  .breadcrumb-text {
+    font-size: 14px;
+    letter-spacing: 0.7px;
+  }
+  .container-fluid+.container-fluid {
+    margin-top: 60px;
+  }
+  @media screen and (min-width: 992px) {
+    &-header {
+      font-size: 40px;
+      letter-spacing: 4px;
+    }
+    &-img-left {
+      background-origin: content-box;
+      background-image: url(/assets/images/about-1.png);
+      height: 390px;
+    }
+    &-img-right {
+      background-origin: content-box;
+      background-image: url(/assets/images/about-2.png);
+      height: 390px;
+    }
+    .breadcrumb-text {
+      font-size: 16px;
+      letter-spacing: 0.8px;
+    }
+  }
+}
+
+.timeline {
+  &-item-year {
+    letter-spacing: 1.6px;
+  }
+  &-item-month {
+    min-width: 38px;
+  }
+
+  @media screen and (min-width:992px) {
+    &-item-year {
+      font-size: 24px;
+      letter-spacing: 2.4px;
+    }
+    &-item-month {
+      min-width: 48px;
+    }
+  }
+}
