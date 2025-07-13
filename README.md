@@ -1,6 +1,7 @@
 # [內容訂閱網站](https://yu-20-10.github.io/week6_SubscriptionWebsite/index.html)
 
 使用Bootstrap完成的RWD靜態切版網站
+### Demo: [https://yu-20-10.github.io/week6_SubscriptionWebsite/](https://yu-20-10.github.io/week6_SubscriptionWebsite/)
 
 # 技術架構
   - **前端**
